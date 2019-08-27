@@ -134,7 +134,7 @@ function createPairs(arr) {
  */
 
 
-//7. ASK ARPAN
+//7.
 function compute(num) {
   let result = [];
   for (let i = 1; i <= num; i++) {
@@ -222,8 +222,6 @@ function isWhat(n) {
   }
   return true;
 }
-
-console.log(isWhat(3));
 
 /**
  * 
