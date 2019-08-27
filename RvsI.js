@@ -11,9 +11,9 @@ function countingSheep (sheep){
 //console.log(countingSheep(3));
 
 /**
- * Recursive O(1)
+ * Recursive O(n)
  * 
- * Iterative O(1)
+ * Iterative O(n)
  */
 
 
@@ -36,7 +36,7 @@ function powerCalculator (base, exp) {
 //console.log(powerCalculator(10, 2));
 
 /**
- * Recursive O(1)
+ * Recursive O(n)
  * 
  * Iterative O(n)
  */
@@ -55,9 +55,9 @@ function reverseString(string) {
 
 
 /**
- * Recursive O(1)
+ * Recursive O(n)
  * 
- * Iterative O(1)
+ * Iterative O(n)
  */
 
 
@@ -93,7 +93,7 @@ function stringSplitter(string){
 /**
  * Recursive O(n)
  *  
- * Iterative O(1)
+ * Iterative O(n)
  */
 
 
@@ -111,7 +111,7 @@ function fibonacci(num){
   }
   return result;
 }
-//console.log(fibonacci(7));
+console.log(fibonacci(7));
 
 /**
  * Recursive O(n)
